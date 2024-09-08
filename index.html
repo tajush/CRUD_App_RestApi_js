@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Project with REST API</title>
+</head>
+<body>
+    <h1>Items</h1>
+
+    <!-- Form for Creating/Updating Items -->
+    <form id="item-form">
+        <input type="hidden" id="item-id" />
+        <input type="text" id="item-name" placeholder="Item Name" required />
+        <input type="number" id="item-price" placeholder="Item Price" required />
+        <button type="submit">Save Item</button>
+    </form>
+
+    <!-- Display Items -->
+    <ul id="item-list"></ul>
+
+    <script src="app.js"></script>
+</body>
+</html>
